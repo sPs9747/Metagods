@@ -1,0 +1,247 @@
+/* variables */
+:root{
+    /* text */
+
+    --text-base: 1.6rem;
+    --text-sm: 1.2rem;
+    --text-para: 1.8rem;
+    --text-h1: 6.2rem;
+    --text-h2: 4.8rem;
+    --text-h3: 4rem;
+    --text-h4: 3.2rem;
+    --text-h5: 2.4rem;
+
+    /* font-weight */
+     
+    --font-weight-normal: 400;
+    --font-weight-heading: 700;
+
+    /* line height */
+
+    --line-height-paragraph: 1.5;
+    --line-height-heading: 1.2;
+
+    /* colors */
+
+    --primary-shade: #4c0fdc;
+    --primary-color: #8B5CF6;
+
+    --secondary-color: #21aeea;
+    --secondary-shade: #0c597a;
+
+    --teritiary-color: #47d95a;
+    --teritiary-shade: #033d0b;
+ 
+    --text-color: #2f2f2f;
+
+    --white: #fff;
+    --black: #000;
+
+    /* letter spacing */
+
+    --letter-spacing-h: -2px;
+}
+
+
+
+/* universal section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-paragraph);
+    color: var(--text-color);
+
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: var(--font-weight-heading);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-h);
+}
+h1{
+    font-size: var(--text-h1);
+}
+
+h2{
+    font-size: var(--text-h2);
+}
+
+h3{
+    font-size: var(--text-h3);
+}
+
+h4{
+    font-size: var(--text-h4);
+}
+
+h5{
+    font-size: var(--text-h5);
+}
+
+p{
+    font-size: var(--text-para);
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.welcome-section{
+    max-width: 60rem;
+    width: 100%;
+   
+}
+
+.hero-heading{
+    background-color: #6c63ff ;
+    display: inline-block;
+    font-size: 5.8rem;
+    color: var(--white);
+    padding : 0.5rem 4rem;
+    border-radius: 1rem;
+}
+.welcome-picture{
+
+    
+    max-width: 60rem;
+    width: 100%;
+
+}
+.hero-icon{
+    width: 100%;
+}
+.feature-section{
+    margin-bottom: 20rem;
+}
+
+.feature-heading{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.feature-grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4rem;
+    row-gap: 3rem;
+    justify-items: center;
+}
+
+.feature-1{
+     max-width: 30rem;
+    width: 100%;
+    background-color: #F5F5F5;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+    
+}
+.feature-1:hover{
+    transform:skew(5deg, 5deg);
+}
+.feature-2{
+    max-width: 30rem;
+    width: 100%;
+    background-color: #F5F5F5;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+
+}
+.feature-3{
+     max-width: 30rem;
+    width: 100%;
+    background-color: #F5F5F5;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+ 
+
+}
+.feature-4{
+     max-width: 30rem;
+    width: 100%;
+    background-color: #F5F5F5;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+
+
+}
+.feature-5{
+    max-width: 30rem;
+    width: 100%;
+    background-color: #F5F5F5;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+
+}
+.feature-6{
+    max-width: 30rem;
+    width: 100%;
+    background-color: #F5F5F5;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    border-radius: 5rem;
+    padding-bottom: 2rem;
+    
+    
+}
+.feature-h{
+    margin-top: 2rem;
+}
+.icons{
+    height: 20rem;
+    width: 90%;
+    
+}
+.f1-points{
+    font-size: var(--text-base)
+}
+
+.f2-points{
+    margin-bottom: 1rem;
+    font-size: var(--text-base);
+}
+.feature-btn{
+    background-color: #6c63ff;
+    color: var(--white);
+    padding : 0.5rem 4rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
