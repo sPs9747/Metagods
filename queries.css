@@ -52,4 +52,6 @@
     .feature-grid-section{
         grid-template-columns: 1fr ;
     }    
+    h5{
+        font-size: 2.2rem;
 }
