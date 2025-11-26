@@ -38,6 +38,7 @@
     }
     .welcome-picture{
         margin-top: 8rem;
+        margin-bottom: 0;
         height: 26rem;
     }
     .welcome-section{
@@ -60,4 +61,5 @@
     h5{
         font-size: 2.2rem;
 }
+
 
